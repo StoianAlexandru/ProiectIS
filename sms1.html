@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<form action="phone2.php" id="sms" method="post" name="sms">
+	<table width="400">
+		<tr>
+			<td align="right" valign="top">Form:</td>
+			<td align="left"><input type="text" id="from" size="30" placeholder="E-mail" /></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top">To:</td>
+			<td align="left"><input type="text" id="to"	size="30" name="to
+			"/></td>
+		</tr>
+		<tr>
+			<td align="right" valign="top">Retea:</td>
+			<td align="left"><select name="carrier" id="carrier"><option value="@orange-gsm.ro">Orange</option>
+			<option value=""></option>
+			<option value=""></option>
+			<option value=""></option></select></td>
+		</tr>
+		
+
+		<tr>
+			<td align="right" valign="top">Message:</td>
+			<td align= "left"><textarea name="message"  id="message" cols="50" rows="10" placeholder="Introduceti text."></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="right"><input type="submit" name="Submit" value="Submit"></td>
+		</tr>
+	</table>
+</form>
+	
+</body>
+</html>
